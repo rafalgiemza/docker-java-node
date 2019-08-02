@@ -1,9 +1,8 @@
-FROM openjdk:8
+FROM openjdk:8-jre-alpine
 LABEL maintainer "Rafał Giemza <rafal.giemza@intive.com>"
 
 ARG REFRESHED_AT
 ENV REFRESHED_AT $REFRESHED_AT
-ENV JAVA_HOME /usr/
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
