@@ -1,4 +1,4 @@
-FROM openjdk:8-jre-alpine
+FROM openjdk:8-jre
 LABEL maintainer "Rafał Giemza <rafal.giemza@intive.com>"
 
 ARG REFRESHED_AT
