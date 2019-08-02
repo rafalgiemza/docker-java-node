@@ -12,4 +12,5 @@ RUN curl -sL https://deb.nodesource.com/setup_10.x | bash - \
 && apt-get update -qq && apt-get install -qq --no-install-recommends \
   git \
   nodejs \
+  libx11-6 \
 && rm -rf /var/lib/apt/lists/*
