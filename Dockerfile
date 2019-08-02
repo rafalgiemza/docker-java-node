@@ -3,7 +3,7 @@ LABEL maintainer "Rafał Giemza <rafal.giemza@intive.com>"
 
 ARG REFRESHED_AT
 ENV REFRESHED_AT $REFRESHED_AT
-ENV JAVA_HOME /usr/lib/jvm/java-8-openjdk-amd64/
+ENV JAVA_HOME /usr/
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
